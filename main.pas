@@ -272,6 +272,8 @@ type
     // If not succesful (or if ForceConnectDialog is true), ask user for credentials and try again
     function ConnectToDBAs(dbIndex: Integer; ForceConnectDialog: boolean=false): Boolean;
     function IsLinux: Boolean;
+    function IsMac: Boolean;
+    function IsBSD: Boolean;
     function IsWindows: Boolean;
     function IsUnix: Boolean;
     function Is64bit: Boolean;
@@ -772,6 +774,16 @@ begin
   Result := Target = 'Linux';
 end;
 
+function TfmMain.IsMac: Boolean;
+begin
+  Result := Target = 'Mac';
+end;
+
+function TfmMain.IsBSD: Boolean;
+begin
+  Result := Target = 'BSD';
+end;
+
 function TfmMain.IsWindows: Boolean;
 begin
   Result := Target = 'Win';
@@ -779,6 +791,7 @@ end;
 
 function TfmMain.IsUnix: Boolean;
 begin
+  Result := IsLinux or IsMac or IsBSD;
 end;
 
 function TfmMain.Is64bit: Boolean;
@@ -795,7 +808,7 @@ function TfmMain.getConfigurationDirectory: string;
 var
   ConfigDir: string;
 begin
-  if IsLinux then
+  if IsUnix then
   begin
     ConfigDir:= GetEnvironmentVariable('HOME') + DirectorySeparator + '.turbobird' + DirectorySeparator;
 

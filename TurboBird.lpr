@@ -33,7 +33,11 @@ const
   VersionDate = '2010 - Jan 2015';
 {$IFDEF Unix}
 {$DEFINE extdecl:=cdecl}
+{$IFDEF DARWIN}
+fbclib = 'libfbclient.' + sharedsuffix;
+{$ELSE}
     fbclib = 'libfbclient.' + sharedsuffix + '.2';
+{$ENDIF}
 {$ENDIF}
 {$IFDEF Windows}
   {$DEFINE extdecl:=stdcall}
@@ -58,7 +62,11 @@ begin
   {$IFDEF UNIX}
   SLib:= TSQLDBLibraryLoader.Create(nil);
   SLib.ConnectionType:= 'Firebird';
+  {$IFDEF DARWIN}
+  SLib.LibraryName:= 'libfbclient.dylib'; //todo: is this correct for OSX?
+  {$ELSE}
   SLib.LibraryName:= 'libfbclient.so.2'; //todo: is this correct for OSX?
+  {$ENDIF}
   SLib.Enabled:= True;
   {$ENDIF}
 
