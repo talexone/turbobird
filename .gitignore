@@ -16,3 +16,4 @@ lib/
 #exclude executable output in windows
 *.exe
 TurboBird
+TurboBird.app

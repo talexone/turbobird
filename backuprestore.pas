@@ -95,8 +95,8 @@ end;
 
 procedure TfmBackupRestore.SetBackupFileName;
 var
-  TargetDir: string;
-  TargetFile: string;
+  TargetDir: RawByteString;
+  TargetFile: RawByteString;
 begin
   // Let system generate a sensible backup name based on database
   if (cbOperation.ItemIndex = 0 {backup}) and
