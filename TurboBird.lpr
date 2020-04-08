@@ -115,7 +115,7 @@ begin
   Application.CreateForm(TfmMain, fmMain);
   fmMain.Version:= Format('%d.%d.%d', [Major, Minor, Release]);
   fmMain.StatusBar1.Panels[1].Text:= 'Version: ' + fmMain.Version;
-  fmMain.VersionDate:= VersionDate;
+  fmMain.VersionDate := VersionDate;
   fmMain.Major:= Major;
   fmMain.Minor:= Minor;
   fmMain.ReleaseVersion:= Release;

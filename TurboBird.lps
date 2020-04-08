@@ -2,13 +2,15 @@
 <CONFIG>
   <ProjectSession>
     <Version Value="11"/>
+    <BuildModes Active="debug"/>
     <Units Count="52">
       <Unit0>
         <Filename Value="TurboBird.lpr"/>
         <IsPartOfProject Value="True"/>
-        <TopLine Value="96"/>
-        <CursorPos Y="115"/>
-        <UsageCount Value="116"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="90"/>
+        <CursorPos X="62" Y="112"/>
+        <UsageCount Value="209"/>
         <Loaded Value="True"/>
       </Unit0>
       <Unit1>
@@ -18,9 +20,8 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <EditorIndex Value="1"/>
-        <TopLine Value="804"/>
-        <CursorPos X="9" Y="821"/>
-        <UsageCount Value="116"/>
+        <CursorPos X="5" Y="228"/>
+        <UsageCount Value="209"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit1>
@@ -31,7 +32,7 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <CursorPos X="9" Y="5"/>
-        <UsageCount Value="116"/>
+        <UsageCount Value="209"/>
       </Unit2>
       <Unit3>
         <Filename Value="reg.pas"/>
@@ -40,13 +41,10 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="Reg"/>
-        <IsVisibleTab Value="True"/>
-        <EditorIndex Value="2"/>
-        <TopLine Value="110"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="14"/>
         <CursorPos X="37" Y="118"/>
-        <UsageCount Value="116"/>
-        <Loaded Value="True"/>
-        <LoadedDesigner Value="True"/>
+        <UsageCount Value="209"/>
       </Unit3>
       <Unit4>
         <Filename Value="querywindow.pas"/>
@@ -58,7 +56,7 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="1412"/>
         <CursorPos X="59" Y="1421"/>
-        <UsageCount Value="116"/>
+        <UsageCount Value="209"/>
       </Unit4>
       <Unit5>
         <Filename Value="viewview.pas"/>
@@ -68,7 +66,7 @@
         <ResourceBaseClass Value="Form"/>
         <TopLine Value="40"/>
         <CursorPos Y="45"/>
-        <UsageCount Value="116"/>
+        <UsageCount Value="209"/>
       </Unit5>
       <Unit6>
         <Filename Value="viewtrigger.pas"/>
@@ -78,7 +76,7 @@
         <ResourceBaseClass Value="Form"/>
         <TopLine Value="49"/>
         <CursorPos X="5" Y="65"/>
-        <UsageCount Value="116"/>
+        <UsageCount Value="209"/>
       </Unit6>
       <Unit7>
         <Filename Value="viewsproc.pas"/>
@@ -88,7 +86,7 @@
         <ResourceBaseClass Value="Form"/>
         <TopLine Value="49"/>
         <CursorPos X="26" Y="49"/>
-        <UsageCount Value="116"/>
+        <UsageCount Value="209"/>
       </Unit7>
       <Unit8>
         <Filename Value="viewgen.pas"/>
@@ -98,7 +96,7 @@
         <ResourceBaseClass Value="Form"/>
         <TopLine Value="37"/>
         <CursorPos X="36" Y="49"/>
-        <UsageCount Value="116"/>
+        <UsageCount Value="209"/>
       </Unit8>
       <Unit9>
         <Filename Value="newtable.pas"/>
@@ -107,7 +105,7 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <CursorPos X="22" Y="22"/>
-        <UsageCount Value="116"/>
+        <UsageCount Value="209"/>
       </Unit9>
       <Unit10>
         <Filename Value="newgen.pas"/>
@@ -115,7 +113,7 @@
         <ComponentName Value="fmNewGen"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <UsageCount Value="116"/>
+        <UsageCount Value="209"/>
       </Unit10>
       <Unit11>
         <Filename Value="enterpass.pas"/>
@@ -124,7 +122,7 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <CursorPos X="20" Y="16"/>
-        <UsageCount Value="116"/>
+        <UsageCount Value="209"/>
       </Unit11>
       <Unit12>
         <Filename Value="about.pas"/>
@@ -134,7 +132,7 @@
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="About"/>
         <EditorIndex Value="-1"/>
-        <UsageCount Value="116"/>
+        <UsageCount Value="209"/>
       </Unit12>
       <Unit13>
         <Filename Value="createtrigger.pas"/>
@@ -143,7 +141,7 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <CursorPos X="36" Y="16"/>
-        <UsageCount Value="116"/>
+        <UsageCount Value="209"/>
       </Unit13>
       <Unit14>
         <Filename Value="edittable.pas"/>
@@ -152,7 +150,7 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <CursorPos X="29" Y="19"/>
-        <UsageCount Value="116"/>
+        <UsageCount Value="209"/>
       </Unit14>
       <Unit15>
         <Filename Value="callproc.pas"/>
@@ -161,7 +159,7 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <CursorPos X="41" Y="7"/>
-        <UsageCount Value="116"/>
+        <UsageCount Value="209"/>
       </Unit15>
       <Unit16>
         <Filename Value="editdatafullrec.pas"/>
@@ -170,7 +168,7 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <CursorPos X="23" Y="7"/>
-        <UsageCount Value="116"/>
+        <UsageCount Value="209"/>
       </Unit16>
       <Unit17>
         <Filename Value="udfinfo.pas"/>
@@ -179,7 +177,7 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <CursorPos X="17" Y="10"/>
-        <UsageCount Value="116"/>
+        <UsageCount Value="209"/>
       </Unit17>
       <Unit18>
         <Filename Value="viewdomain.pas"/>
@@ -188,7 +186,7 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <CursorPos X="36" Y="10"/>
-        <UsageCount Value="116"/>
+        <UsageCount Value="209"/>
       </Unit18>
       <Unit19>
         <Filename Value="newdomain.pas"/>
@@ -197,7 +195,7 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <CursorPos X="32" Y="6"/>
-        <UsageCount Value="116"/>
+        <UsageCount Value="209"/>
       </Unit19>
       <Unit20>
         <Filename Value="systables.pas"/>
@@ -208,7 +206,7 @@
         <UnitName Value="SysTables"/>
         <EditorIndex Value="-1"/>
         <CursorPos X="31" Y="9"/>
-        <UsageCount Value="116"/>
+        <UsageCount Value="209"/>
       </Unit20>
       <Unit21>
         <Filename Value="newconstraint.pas"/>
@@ -217,7 +215,7 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <CursorPos X="45" Y="5"/>
-        <UsageCount Value="116"/>
+        <UsageCount Value="209"/>
       </Unit21>
       <Unit22>
         <Filename Value="neweditfield.pas"/>
@@ -227,7 +225,7 @@
         <ResourceBaseClass Value="Form"/>
         <TopLine Value="35"/>
         <CursorPos X="31" Y="49"/>
-        <UsageCount Value="116"/>
+        <UsageCount Value="209"/>
       </Unit22>
       <Unit23>
         <Filename Value="calen.pas"/>
@@ -236,13 +234,13 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <CursorPos X="23" Y="14"/>
-        <UsageCount Value="116"/>
+        <UsageCount Value="209"/>
       </Unit23>
       <Unit24>
         <Filename Value="scriptdb.pas"/>
         <IsPartOfProject Value="True"/>
         <CursorPos X="34" Y="14"/>
-        <UsageCount Value="116"/>
+        <UsageCount Value="209"/>
       </Unit24>
       <Unit25>
         <Filename Value="userpermissions.pas"/>
@@ -251,7 +249,7 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <CursorPos X="36" Y="13"/>
-        <UsageCount Value="116"/>
+        <UsageCount Value="209"/>
       </Unit25>
       <Unit26>
         <Filename Value="tablemanage.pas"/>
@@ -261,7 +259,7 @@
         <ResourceBaseClass Value="Form"/>
         <TopLine Value="154"/>
         <CursorPos X="41" Y="167"/>
-        <UsageCount Value="116"/>
+        <UsageCount Value="209"/>
       </Unit26>
       <Unit27>
         <Filename Value="backuprestore.pas"/>
@@ -273,7 +271,7 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="94"/>
         <CursorPos X="28" Y="99"/>
-        <UsageCount Value="116"/>
+        <UsageCount Value="209"/>
       </Unit27>
       <Unit28>
         <Filename Value="createuser.pas"/>
@@ -282,7 +280,7 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <CursorPos X="28" Y="20"/>
-        <UsageCount Value="116"/>
+        <UsageCount Value="209"/>
       </Unit28>
       <Unit29>
         <Filename Value="changepass.pas"/>
@@ -291,7 +289,7 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <CursorPos X="27" Y="15"/>
-        <UsageCount Value="116"/>
+        <UsageCount Value="209"/>
       </Unit29>
       <Unit30>
         <Filename Value="permissionmanage.pas"/>
@@ -300,7 +298,7 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <CursorPos X="22" Y="5"/>
-        <UsageCount Value="116"/>
+        <UsageCount Value="209"/>
       </Unit30>
       <Unit31>
         <Filename Value="sqlhistory.pas"/>
@@ -309,7 +307,7 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <CursorPos X="47" Y="13"/>
-        <UsageCount Value="116"/>
+        <UsageCount Value="209"/>
       </Unit31>
       <Unit32>
         <Filename Value="copytable.pas"/>
@@ -318,7 +316,7 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <CursorPos X="19" Y="11"/>
-        <UsageCount Value="116"/>
+        <UsageCount Value="209"/>
       </Unit32>
       <Unit33>
         <Filename Value="dbinfo.pas"/>
@@ -327,7 +325,7 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <CursorPos X="40" Y="11"/>
-        <UsageCount Value="116"/>
+        <UsageCount Value="209"/>
       </Unit33>
       <Unit34>
         <Filename Value="comparison.pas"/>
@@ -336,7 +334,7 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <CursorPos X="22" Y="7"/>
-        <UsageCount Value="116"/>
+        <UsageCount Value="209"/>
       </Unit34>
       <Unit35>
         <Filename Value="procmod.pas"/>
@@ -344,7 +342,7 @@
         <ComponentName Value="fmProcMod"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <UsageCount Value="116"/>
+        <UsageCount Value="209"/>
       </Unit35>
       <Unit36>
         <Filename Value="update.pas"/>
@@ -353,39 +351,39 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <CursorPos X="40" Y="14"/>
-        <UsageCount Value="116"/>
+        <UsageCount Value="209"/>
       </Unit36>
       <Unit37>
         <Filename Value="topologicalsort.pas"/>
         <IsPartOfProject Value="True"/>
         <TopLine Value="172"/>
         <CursorPos X="40" Y="7"/>
-        <UsageCount Value="116"/>
+        <UsageCount Value="209"/>
       </Unit37>
       <Unit38>
         <Filename Value="unitfirebirdservices.pas"/>
         <IsPartOfProject Value="True"/>
         <TopLine Value="317"/>
         <CursorPos X="27" Y="7"/>
-        <UsageCount Value="116"/>
+        <UsageCount Value="209"/>
       </Unit38>
       <Unit39>
         <Filename Value="turbocommon.inc"/>
         <IsPartOfProject Value="True"/>
         <EditorIndex Value="-1"/>
         <CursorPos X="3" Y="13"/>
-        <UsageCount Value="116"/>
+        <UsageCount Value="209"/>
       </Unit39>
       <Unit40>
         <Filename Value="trunksqlscript.pas"/>
         <IsPartOfProject Value="True"/>
-        <UsageCount Value="116"/>
+        <UsageCount Value="209"/>
       </Unit40>
       <Unit41>
         <Filename Value="turbocommon.pas"/>
         <IsPartOfProject Value="True"/>
         <CursorPos X="46" Y="12"/>
-        <UsageCount Value="116"/>
+        <UsageCount Value="209"/>
       </Unit41>
       <Unit42>
         <Filename Value="importtable.pas"/>
@@ -395,200 +393,140 @@
         <ResourceBaseClass Value="Form"/>
         <TopLine Value="83"/>
         <CursorPos X="28" Y="89"/>
-        <UsageCount Value="116"/>
+        <UsageCount Value="209"/>
       </Unit42>
       <Unit43>
         <Filename Value="fileimport.pas"/>
         <IsPartOfProject Value="True"/>
         <TopLine Value="498"/>
         <CursorPos X="31" Y="501"/>
-        <UsageCount Value="116"/>
+        <UsageCount Value="209"/>
       </Unit43>
       <Unit44>
         <Filename Value="csvdocument.pas"/>
         <IsPartOfProject Value="True"/>
         <CursorPos X="44" Y="15"/>
-        <UsageCount Value="116"/>
+        <UsageCount Value="209"/>
       </Unit44>
       <Unit45>
-        <Filename Value="/usr/lib64/lazarus/components/turbopower_ipro/iphtml.pas"/>
-        <TopLine Value="15885"/>
-        <CursorPos X="6" Y="15896"/>
-        <UsageCount Value="2"/>
-      </Unit45>
-      <Unit46>
         <Filename Value="/media/Data/FreePascal/Components/kzdesktop_beta02/kzlazdesktop.pas"/>
         <ComponentName Value="KZLazDesktopInterface"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <TopLine Value="1522"/>
         <CursorPos X="27" Y="1534"/>
-        <UsageCount Value="10"/>
-      </Unit46>
-      <Unit47>
+        <UsageCount Value="0"/>
+      </Unit45>
+      <Unit46>
         <Filename Value="../../../fpcupdeluxe/lazarus/components/lazutils/lazlogger.pas"/>
         <UnitName Value="LazLogger"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="358"/>
         <CursorPos Y="377"/>
-        <UsageCount Value="10"/>
-      </Unit47>
-      <Unit48>
+        <UsageCount Value="0"/>
+      </Unit46>
+      <Unit47>
         <Filename Value="../../../fpcupdeluxe/lazarus/components/lazutils/lazloggerbase.pas"/>
         <UnitName Value="LazLoggerBase"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="790"/>
         <CursorPos Y="810"/>
-        <UsageCount Value="10"/>
-      </Unit48>
-      <Unit49>
+        <UsageCount Value="0"/>
+      </Unit47>
+      <Unit48>
         <Filename Value="/Developer/lazarus/lcl/interfaces/carbon/carbonbars.pp"/>
         <UnitName Value="CarbonBars"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="6"/>
         <CursorPos X="2" Y="16"/>
-        <UsageCount Value="10"/>
-      </Unit49>
-      <Unit50>
+        <UsageCount Value="0"/>
+      </Unit48>
+      <Unit49>
         <Filename Value="/Developer/lazarus/components/lazutils/lazlogger.pas"/>
         <UnitName Value="LazLogger"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="348"/>
         <CursorPos Y="366"/>
-        <UsageCount Value="10"/>
-      </Unit50>
-      <Unit51>
+        <UsageCount Value="0"/>
+      </Unit49>
+      <Unit50>
         <Filename Value="/usr/local/share/fpcsrc/rtl/unix/dynlibs.inc"/>
         <EditorIndex Value="-1"/>
         <CursorPos X="3" Y="30"/>
-        <UsageCount Value="10"/>
+        <UsageCount Value="0"/>
+      </Unit50>
+      <Unit51>
+        <Filename Value="../libs/synapse/synamisc.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="102"/>
+        <CursorPos X="21" Y="114"/>
+        <UsageCount Value="0"/>
       </Unit51>
     </Units>
-    <JumpHistory Count="30" HistoryIndex="29">
+    <JumpHistory Count="12" HistoryIndex="11">
       <Position1>
         <Filename Value="TurboBird.lpr"/>
-        <Caret Line="115" TopLine="105"/>
+        <Caret Line="115" TopLine="96"/>
       </Position1>
       <Position2>
-        <Filename Value="reg.pas"/>
-        <Caret Line="118" Column="37" TopLine="110"/>
+        <Filename Value="TurboBird.lpr"/>
+        <Caret Line="115" TopLine="96"/>
       </Position2>
       <Position3>
-        <Filename Value="main.pas"/>
-        <Caret Line="798" TopLine="779"/>
+        <Filename Value="TurboBird.lpr"/>
+        <Caret Line="118" Column="24" TopLine="33"/>
       </Position3>
       <Position4>
-        <Filename Value="main.pas"/>
-        <Caret Line="772" Column="15" TopLine="753"/>
+        <Filename Value="TurboBird.lpr"/>
+        <Caret Line="33" Column="4" TopLine="13"/>
       </Position4>
       <Position5>
-        <Filename Value="main.pas"/>
-        <Caret Line="773" TopLine="753"/>
+        <Filename Value="TurboBird.lpr"/>
+        <Caret Line="118" Column="4" TopLine="106"/>
       </Position5>
       <Position6>
-        <Filename Value="main.pas"/>
-        <Caret Line="798" TopLine="779"/>
+        <Filename Value="TurboBird.lpr"/>
+        <Caret Line="117" Column="62" TopLine="103"/>
       </Position6>
       <Position7>
         <Filename Value="main.pas"/>
-        <Caret Line="807" TopLine="779"/>
+        <Caret Line="228" Column="5"/>
       </Position7>
       <Position8>
-        <Filename Value="main.pas"/>
-        <Caret Line="808" TopLine="779"/>
+        <Filename Value="TurboBird.lpr"/>
+        <Caret Line="118" Column="25" TopLine="106"/>
       </Position8>
       <Position9>
-        <Filename Value="main.pas"/>
-        <Caret Line="798" Column="10" TopLine="779"/>
+        <Filename Value="TurboBird.lpr"/>
+        <Caret Line="35" Column="2" TopLine="23"/>
       </Position9>
       <Position10>
-        <Filename Value="main.pas"/>
-        <Caret Line="799" TopLine="777"/>
+        <Filename Value="TurboBird.lpr"/>
+        <Caret Line="118" Column="25" TopLine="106"/>
       </Position10>
       <Position11>
-        <Filename Value="main.pas"/>
-        <Caret Line="770" Column="23" TopLine="763"/>
+        <Filename Value="TurboBird.lpr"/>
+        <Caret Line="35" Column="2" TopLine="23"/>
       </Position11>
       <Position12>
-        <Filename Value="main.pas"/>
-        <Caret Line="368" Column="57" TopLine="107"/>
+        <Filename Value="TurboBird.lpr"/>
+        <Caret Line="118" Column="25" TopLine="106"/>
       </Position12>
-      <Position13>
-        <Filename Value="main.pas"/>
-        <Caret Line="772" Column="25" TopLine="740"/>
-      </Position13>
-      <Position14>
-        <Filename Value="main.pas"/>
-        <Caret Line="794" Column="20" TopLine="762"/>
-      </Position14>
-      <Position15>
-        <Filename Value="main.pas"/>
-        <Caret Line="274" Column="21" TopLine="257"/>
-      </Position15>
-      <Position16>
-        <Filename Value="main.pas"/>
-        <Caret Line="772" Column="25" TopLine="740"/>
-      </Position16>
-      <Position17>
-        <Filename Value="main.pas"/>
-        <Caret Line="794" Column="20" TopLine="762"/>
-      </Position17>
-      <Position18>
-        <Filename Value="reg.pas"/>
-        <Caret Line="118" Column="37" TopLine="110"/>
-      </Position18>
-      <Position19>
-        <Filename Value="main.pas"/>
-        <Caret Line="281" Column="30" TopLine="263"/>
-      </Position19>
-      <Position20>
-        <Filename Value="main.pas"/>
-        <Caret Line="811" Column="3" TopLine="807"/>
-      </Position20>
-      <Position21>
-        <Filename Value="TurboBird.lpr"/>
-        <Caret Line="115" TopLine="96"/>
-      </Position21>
-      <Position22>
-        <Filename Value="main.pas"/>
-        <Caret Line="811" TopLine="804"/>
-      </Position22>
-      <Position23>
-        <Filename Value="main.pas"/>
-        <Caret Line="813" TopLine="804"/>
-      </Position23>
-      <Position24>
-        <Filename Value="main.pas"/>
-        <Caret Line="812" Column="9" TopLine="804"/>
-      </Position24>
-      <Position25>
-        <Filename Value="main.pas"/>
-        <Caret Line="816" TopLine="804"/>
-      </Position25>
-      <Position26>
-        <Filename Value="main.pas"/>
-        <Caret Line="817" TopLine="804"/>
-      </Position26>
-      <Position27>
-        <Filename Value="main.pas"/>
-        <Caret Line="821" TopLine="804"/>
-      </Position27>
-      <Position28>
-        <Filename Value="main.pas"/>
-        <Caret Line="811" TopLine="804"/>
-      </Position28>
-      <Position29>
-        <Filename Value="TurboBird.lpr"/>
-        <Caret Line="115" TopLine="96"/>
-      </Position29>
-      <Position30>
-        <Filename Value="main.pas"/>
-        <Caret Line="821" Column="9" TopLine="804"/>
-      </Position30>
     </JumpHistory>
     <RunParams>
       <FormatVersion Value="2"/>
       <Modes Count="0" ActiveMode="default"/>
     </RunParams>
   </ProjectSession>
+  <Debugging>
+    <BreakPoints Count="1">
+      <Item1>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="TurboBird.lpr"/>
+        <Line Value="35"/>
+      </Item1>
+    </BreakPoints>
+  </Debugging>
 </CONFIG>
